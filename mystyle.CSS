@@ -1,0 +1,36 @@
+
+#line-draw{
+   border: 3.5px solid #7d97ad;
+}
+
+#sidebar-links{
+    margin-top: 1rem;
+    width: 8em;
+    height: 5em;
+}
+
+#main-content{
+    margin-top: 1rem;
+    width: 25em;
+    height: 20em;
+}
+
+#featuredwork-title{
+    color: #7d97ad;
+    margin-top: 0rem;
+}
+
+
+.Description-Heading{
+    margin-top: 1em;
+    font-size: 15px;
+    color: #ff3300;
+     
+}
+
+.Project-Description{
+    margin-top: 1em;
+    color: #0000ff;
+
+}
+

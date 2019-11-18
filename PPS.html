@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+
+    <title>
+        Sanjay Portfolio Site
+    </title>
+
+    <!-- This is the block for including bootstrap-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="mystyle.css">
+
+</head>
+
+<body>
+    <Header>
+        <!-- Adding Logo at the top of the page-->
+        <div class="container">
+            <div class="row">
+                <div class="col-md-1">
+                </div>
+
+                <div class="col-md-6">
+                    <img class="img-fluid" alt="Logo image" id="Logo" src="Resources/Logo/Logo.png">
+                </div>
+
+                <!-- Adding Portfolio creator's name and title-->
+                <div class="col-md-5">
+                    <h1>SANJAY PRASANNA</h1>
+                    <h6>Front end Dev Student</h6>
+                </div>
+            </div>
+
+            <!-- Adding line under the logo, name and title-->
+            <div class="row">
+                <div class="col-md-2">
+
+                </div>
+
+                <div class="col-md-9" id="line-draw">
+                </div>
+            </div>
+        </div>
+    </Header>
+
+    <main>
+        <!--SideBar images and main content -->
+        <div class="container">
+            <div class="row">
+                <!-- Adding images on the SideBar-->
+                <div class="col-md-2 sidebar-links img-fluid">
+                    <a href="https://www.google.com" target="_blank">
+                        <img id="Memory-Game" alt="Memory game image" src="Resources/SideBar/MemoryGame.png">
+                    </a>
+                    <a href="https://www.google.com" target="_blank">
+                        <img id="Project2" alt="Project2 image" src="Resources/SideBar/Project2.jpg">
+                    </a>
+                    <a href="https://www.google.com" target="_blank">
+                        <img id="StarProject" alt="Project3 image" src="Resources/SideBar/Project3.png">
+                    </a>
+                </div>
+
+                <!-- Adding main content-->
+                <div class="col-md-5">
+                    <img class="img-fluid" id="main-content" src="Resources/MainArticle/main.jpg" alt="main-content image" width="300" height="400">
+                </div>
+
+                <div class="col-md-4">
+                    <p class="Description-Heading"> <strong> Welcome to Sanjay's Project portfolio site.</strong></p>
+
+                    <p class="Project-Description"> <strong> Description of the projects will be written in this section. On clicking icon of every project
+                       in the sidebar, this text changes dynamically. Need to pick Javascript skills to make that happen!</strong></p>
+                </div>
+
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <!-- Adding Featured work section-->
+        <div class="container">
+
+            <div class="row">
+                <div class="col-md-2">
+
+                </div>
+                <div class="col-md-10" id="featuredwork-title">
+                    <h5>Featured Work</h5>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-2">
+                </div>
+
+                <div id="Featured-img">
+                    <img class="col-md-3 img-fluid" alt="Google Play store image" src="Resources/Footer/GooglePlayStore.jpg">
+                    <img class="col-md-3 img-fluid" alt="App-Store image" src="Resources/Footer/App-Store.png">
+                    <img class="col-md-3 img-fluid" alt="Music game image" src="Resources/Footer/Music.png">
+
+                </div>
+            </div>
+
+        </div>
+    </footer>
+</body>
+
+</html>
